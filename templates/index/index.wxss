@@ -1,0 +1,10 @@
+.app-container {}
+
+/* 顶部内容样式 */
+.app-container .header-container {}
+
+/* 主要内容样式 */
+.app-container .main-container {}
+
+/* 底部内容样式 */
+.app-container .footer-container {}

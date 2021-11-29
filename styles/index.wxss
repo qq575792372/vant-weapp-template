@@ -1,0 +1,50 @@
+/* 引入util.wxss */
+@import "util.wxss";
+
+/* global clear fix */
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+/* set global text color */
+.text-default {
+  color: #303133;
+}
+
+.text-info {
+  color: #606266;
+}
+
+.text-desc {
+  color: #909399;
+}
+
+.text-primary {
+  color: #1890ff;
+}
+
+.text-success {
+  color: #19be6b;
+}
+
+.text-warning {
+  color: #ff9900;
+}
+
+.text-danger {
+  color: #ed4014;
+}
+
+/* 页面布局 */
+.app-container {}
+
+.app-container .header-container {}
+
+.app-container .main-container {}
+
+.app-container .footer-container {}

@@ -1,0 +1,21 @@
+<!-- page -->
+<view class="app-container">
+	<!-- 顶部内容 -->
+	<view class="header-container"></view>
+	<!-- 主要内容 -->
+	<view class="main-container">
+		<van-button type="primary" bind:tap="queryList">查询列表</van-button>
+		<van-button class="margin-left-20" type="primary" bind:tap="showDialog">vant弹框</van-button>
+		<view class="margin-top-10">
+			列表：
+		</view>
+	</view>
+	<!-- 底部内容 -->
+	<view class="footer-container"></view>
+	<view wx:for="{{list}}">
+		<span>{{item.name}}</span>
+	</view>
+</view>
+
+<!-- vant组件 -->
+<van-dialog id="van-dialog" />

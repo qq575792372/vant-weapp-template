@@ -1,0 +1,15 @@
+{
+  "name": "xcx_template",
+  "version": "1.0.0",
+  "description": "小程序开发模板",
+  "main": "app.js",
+  "author": "GaoShiWei <1020431880@qq.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.6.6"
+  },
+  "devDependencies": {}
+}

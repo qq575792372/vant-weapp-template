@@ -1,0 +1,9 @@
+<!-- page -->
+<view class="app-container">
+  <!-- 顶部内容 -->
+  <view class="header-container"></view>
+  <!-- 主要内容 -->
+  <view class="main-container"></view>
+  <!-- 底部内容 -->
+  <view class="footer-container"></view>
+</view>
